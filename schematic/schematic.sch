@@ -6225,12 +6225,12 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="special" deviceset="XTAL" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="025-024X044"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="025-024X044"/>
+<part name="Q1" library="special" deviceset="XTAL" device="" value="16MHz"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="025-024X044" value="15uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="025-024X044" value="15uF"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="S1" library="switch-misc" deviceset="DT" device="6"/>
 </parts>
 <sheets>
