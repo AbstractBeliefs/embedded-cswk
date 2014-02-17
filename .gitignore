@@ -21,3 +21,6 @@
 *.atsln
 *.atsuo
 *.cproj
+
+# IDE build directories
+*/Debug/*
