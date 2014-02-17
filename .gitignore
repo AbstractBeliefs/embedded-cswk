@@ -16,3 +16,8 @@
 *.exe
 *.out
 *.app
+
+# IDE metadata
+*.atsln
+*.atsuo
+*.cproj
