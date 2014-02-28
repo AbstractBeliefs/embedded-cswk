@@ -2,7 +2,7 @@ embedded-cswk
 =============
 
 My Physical Computing coursework, Year 2 Semester 2.
-This will be a interactive tabletop which can run a variety of "apps".
+This will be an interactive tabletop which can run a variety of "apps".
 
 Device notes:
 -------------
