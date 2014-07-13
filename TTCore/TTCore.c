@@ -5,16 +5,16 @@
  *  Author: Gareth
  */ 
 
-#include <TTCore.h>
+#include "TTCore.h"
 
 #include <stdlib.h>
 #include <string.h>
 #include <avr/io.h>
 
-TTContext* makeTTContect(void){     // Allocate and initialise a screen context
+TTContext* makeTTContext(void){     // Allocate and initialise a screen context
     // Get a screen context
-    TTContext* ctxt = malloc(sizeof TTContext);
-    if (!ctxt) { reurn ctxt; }		    // Check to see if we were able to allocate mem
+    TTContext* ctxt = malloc(sizeof(TTContext));
+    if (!ctxt) { return ctxt; }		    // Check to see if we were able to allocate mem
     
     // Initialise the variables
     memset(ctxt->screen, 0, SCREENHIGH*SCREENWIDE);     // Clear screen
